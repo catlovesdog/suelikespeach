@@ -80,7 +80,7 @@
 		let imgElem;
 		for (let i = 0; i < sceneInfo[0].values.videoImageCount; i++) {
 			imgElem = new Image();
-			imgElem.src = `/Users/sue/Desktop/Website/video/002/IMG_${7027 + i}.jpg`;
+			imgElem.src = `https://github.com/catlovesdog/suelikespeach/blob/master/video/002/IMG_${7027 + i}.JPG`;
 			sceneInfo[0].objs.videoImages.push(imgElem);
 		}
 	}
