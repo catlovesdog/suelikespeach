@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Eun Soo Cho</title>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/simple-main.css">
+	<link rel="icon" type="image/png" href="/Users/sue/Desktop/Website/images/37.png">     <!-- 피비콘 -->
+</head>
+<body class="before-load">
+	<div class="loading">
+		<svg class="loading-circle">
+			<circle cx="50%" cy="50%" r="25"></circle>
+		</svg>
+	</div>
+	<div class="container">
+		<section class="scroll-section" id="scroll-section-0">
+			<h1>Hi<br/> I am Eun Soo!</h1>
+			
+			<div class="sticky-elem sticky-elem-canvas">
+				<canvas id="video-canvas-0" width="1920" height="1080"></canvas>
+			</div>
+			<div class="sticky-elem main-message a">
+				<p>Curious about the world, <br> I traveled to 80 cities and wrote two books</p>
+				<br> 
+				<!-- <p class="intro" id="introId"> built upon an endless curiosity about the world</p>  -->
+			</div>
+			<div class="sticky-elem main-message b">
+				<p>To connect with more people,<br> I explored various careers<br><br> <small>Marketer, engineer, and designer — building seven years of experience along the way</small></p>
+			</div>
+			<div class="sticky-elem main-message c">
+				<p>Shedding light on the world through language<br> and bringing it to the public</p>
+			</div>
+			<div class="sticky-elem main-message d">
+				<p>Would you like to grab a coffee with me?</p>  
+				<p class="coffee" id="coffeeId" style="font-size: 23px;"> <br>I'd love to share some fascinating stories from my journey! </p>
+				
+			</div>
+		</section>
+		<section class="scroll-section" id="scroll-section-1">
+			<div class="sticky-elem main-message hero-message a">
+				<p>
+					<small style="font-size: 25px;">Reintroducing </small>
+					I am a Creative Technologist <br> with Product Design focus <br> you’ve been waiting for
+				</p>
+			</div>
+			<div class="sticky-elem main-message b">
+				<p>
+					Design, creativity, and strategic thinking— <br> <br><small>Made in Korea  </small> 
+				</p>
+			</div>
+			<div class="sticky-elem main-message c">
+				<p>
+					With creativity like never before, <br> I want to show you a whole new world
+					<small> <br> Stanford longevity design challenge 2025 Finalist &
+						Fast company design innovation 2024 Finalist</small>
+				</p>
+			</div>
+		</section>
+		
+		<div class="normal-content" id ="WebGo">
+			<section>
+				<p class="mid-message" id="happy" style="cursor: pointer;">
+					<small style="font-size: 20px;"><strong>Click to explore more of Eun Soo's world</strong>
+						<small style="font-size: 15px;"><strong>- By the way, I made this website myself</strong> </small> </small>
+					<img id="clickable-image" src="file:///Users/sue/Desktop/Website/images/20.PNG" alt="Click to explore" style="cursor: pointer;">
+				     
+				</p>
+			</section>
+
+		</div>
+	</div>
+
+	<script src="js/simple-main.js"></script>
+	<script>
+        // 클릭 이벤트 리스너
+        document.getElementById("clickable-image").addEventListener("click", function(event) {
+            event.preventDefault(); // 기본 동작 방지
+            window.location.href = 'https://eunsoocho.creatorlink.net/'; // 웹사이트로 이동
+        });
+    </script>
+	<script>
+		document.getElementById("happy").addEventListener("click", function(event) {
+			event.preventDefault(); // 기본 동작 방지
+			window.location.href = 'https://eunsoocho.creatorlink.net/'; // 원하는 웹사이트로 이동
+		});
+	</script>
+	
+
+	
+</body>
+</html>
